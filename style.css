@@ -28,7 +28,53 @@ body {
   align-items: center;
 }
 main {
-  width: 1440px;
-  height: 600px;
-  background-color: aqua;
+  display: flex;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.Sedans,
+.Suvs,
+.Luxury {
+  width: 340px;
+  padding: 60px;
+}
+
+.Sedans {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+figure img {
+  margin-bottom: 30px;
+}
+.Suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+.Luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.title {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  font-family: "Big Shoulders Display", sans-serif;
+  margin-bottom: 20px;
+}
+.paragraph {
+  line-height: 1.6;
+  width: 240px;
+  color: #fff;
+  margin-bottom: 60px;
+}
+.btn {
+  border: none;
+  padding: 12px 34px;
+  border-radius: 100px;
 }
